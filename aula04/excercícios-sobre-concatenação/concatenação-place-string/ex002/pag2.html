@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples</title>
+    <link rel="shortcut icon" href="icon/vasco-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <h1>Obrigado por usar meu primeiro projeto com as <abbr title="Javascript, HTML e CSS">3 ferramentas web</abbr></h1>
+        <p>Caso queira ir para o nível 2, clique <abbr title="ir para calculadora de números reais"><a href="../ex003/pag3.html" rel="next preload" target="_self">aqui</a></abbr> e você será direcionado para a minha primeira calculadora de números reais</p>
+        <!-- âncora para a pagina 3 -->
+        <br>
+        <p>Gostaria de voltar para página incial? clique <abbr title="página incial"><a href="../ex001/pag1.html" rel="prev preload" >aqui</a></abbr></p>
+        <!-- âncora para o index -->
+    </main>
+    <script>
+        window.alert('Vamos fazer um cálculo de adição de números inteiros?')
+        var n1 = Number.parseInt(window.prompt('Me informe um número inteiro(exemplo: 1,2,3,4):')) 
+        var n2 = Number.parseInt(window.prompt('Me informe o outro número inteiro(exeplo: 4,5,6,7):'))
+        // valores para a soma dos inteiros
+        var s1 = n1 + n2
+        // soma dos inteiros
+        window.alert(`A soma de ${n1} + ${n2} é igual a: ${s1}`)
+    </script>
+</body>
+</html>

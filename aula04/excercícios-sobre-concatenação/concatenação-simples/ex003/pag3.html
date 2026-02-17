@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro programa</title>
+    <link rel="shortcut icon" href="icon/vasco-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <h1>Obrigado por usar meu primeiro projeto com as <abbr title="Javascript, HTML e CSS">3 ferramentas web</abbr></h1>
+        <p>Gostaria de voltar para a calculadora de números inteiros? Clique <abbr title="voltar paracalculadora de números inteiros"><a href="../ex002/pag2.html" rel="prev preload" target="_self">aqui</a></abbr></p>
+        <!-- âncora de retorno à página 2 -->
+        <br>
+        <p>Gostaria de voltar para página incial? Clique <abbr title="página inicial"><a href="../ex001/pag1.html" rel="prev preload" target="_self">aqui</a></abbr></p>
+        <!-- âncora de retorno ao index -->
+    </main>
+    <script>
+        window.alert('Agora iremos fazer calculo de números reais')
+        var n3 = Number.parseFloat(window.prompt('Agora me informa outro número real(exemplo: 8.9 ou 3.7):'))
+        var n4 = Number.parseFloat(window.prompt('Agora me informa outro número real(exemplo: 8.9 ou 3.7): '))
+        // valores para soma dos reais
+        var s2 = n3 + n4
+        // soma dos reais
+        window.alert('A soma de ' + n3 + ' + ' + n4 + ' é igual a: ' + s2)
+    </script>
+</body>
+</html>
