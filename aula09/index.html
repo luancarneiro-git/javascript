@@ -6,11 +6,27 @@
     <title>estudos sobre DOM</title>
     <link rel="shortcut icon" href="icon/vasco-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        #msg {
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
     <main>
         <h1>Inicio dos estudos sobre DOM</h1>
-        
+        <p>Aqui vai o resultado</p>
+        <p>Aprendendo a usar <strong>DOM</strong> em JS</p>
+        <div id="msg">Clique em mim</div>
     </main>
+        <Script>
+            let p1 = window.document.getElementsByTagName('p')[1]
+            let corpo = window.document.body
+            corpo.style.backgroundColor = "white"
+            window.document.write(p1.innerHTML)
+            let d = window.document.getElementById('msg')
+            d.style.color = 'red'
+            d.innerText = 'Estou aprendendo '
+        </Script>
 </body>
 </html>
