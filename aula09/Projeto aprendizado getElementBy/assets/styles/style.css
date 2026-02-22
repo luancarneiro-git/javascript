@@ -3,13 +3,19 @@
     body {
         background-color: #121313;
     }
-    h1, h2, h3, h4, p {
+    h1, h2, h3, h4 {
         color: #b6895d;
     }
     hr {
         border-color: #1a1a1a;
     }
     main {
+        width: 600px;
+        margin: auto;
+        background-color: #202020;
+        padding: 10px;            
+    }
+    .title {
         width: 600px;
         margin: auto;
         background-color: #202020;
