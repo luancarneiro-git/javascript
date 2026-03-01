@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM primeiro método</title>
+    <link rel="shortcut icon" href="assets/img/vasco-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <main>
+        <h1>utilizando o método de chamar a function dentro da div</h1>
+        <div id="area" onclick="clique()" onmouseenter="entrou()" onmouseleave="saiu()">
+            <p id="p">interaja...</p>
+        </div>
+        <a href=""></a>
+    </main>
+        <div class="title2">
+            <p><a href="views/pag2.html">ir para página 2</a></p>
+        </div>
+    </main>
+    <script>
+        function clique(){
+            let c = document.querySelector('#area')
+            let c2 = document.querySelector('#p')
+            c2.innerText = 'clicou'
+            c.style.backgroundColor = 'red'
+        }
+        function entrou(){
+            let e = document.querySelector('#area')
+            let e2 = document.querySelector('#p')
+            e2.innerText = 'entrou'
+            e.style.backgroundColor = 'blue'
+        }
+        function saiu(){
+            let s = document.querySelector('#area')
+            let s2 = document.querySelector('#p')
+            s2.innerText = 'saiu'
+            s.style.backgroundColor = 'blueviolet'
+        }
+    </script>
+</body>
+</html> 

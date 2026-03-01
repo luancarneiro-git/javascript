@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM segundo método</title>
+    <link rel="shortcut icon" href="../assets/img/vasco-favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../assets/styles/style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Utilizando o método addEventListener</h1>
+        </div>
+        <div id="area">
+            <p id="p">interaja...</p>
+        </div>
+    </main>
+        <div class="title2">
+            <p><a href="../index.html">voltar para página 1</a></p>
+        </div>
+    <script>
+        let c = document.querySelector('#area')
+        let c2 = document.querySelector('#p')
+
+        c.addEventListener('click', clique)
+        c.addEventListener('mouseenter', entrou)
+        c.addEventListener('mouseleave', saiu)
+
+        function clique(){
+            let c = document.querySelector('#area')
+            let c2 = document.querySelector('#p') 
+            c2.innerText = 'clicou'
+            c.style.backgroundColor = 'black'
+        }
+        function entrou(){
+            let e = document.querySelector('#area')
+            let e2 = document.querySelector('#p')
+            e2.innerText = 'entrou'
+            e.style.backgroundColor = 'grey'
+        }
+        function saiu(){
+            let s = document.querySelector('#area')
+            let s2 = document.querySelector('#p')
+            s2.innerText = 'saiu'
+            s.style.backgroundColor = 'blueviolet'
+        }
+    </script>
+</body>
+</html> 
