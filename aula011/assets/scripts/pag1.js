@@ -8,5 +8,5 @@ function calcular(){
     } else {
         resu.innerHTML += '<p>e você está dentro da velocidade permitida</p>'
     }
-                resu.innerHTML += `<p>dirija com segurança!</p>`
+        resu.innerHTML += `<p>dirija com segurança!</p>`
 }
