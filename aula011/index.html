@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <link rel="shortcut icon" href="assets/img/vasco-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Sistema de multas página inicial</h1>
+    </div>
+    <div class="title2">
+        <h2>Para o aprendizado da condição if else</h2>
+        <h3>Utilizando o parâmetro de click dentro do HTML</h3>
+    </div>
+    <h5>Verificador de velocidade</h2>
+    <div class="sys">
+        <abbr title="digite a velocidade"><input type="text" name="txtvel" id="vel"><br></abbr>
+        <br>
+        <abbr title="clique para verificar"><input type="button" value="Verificar" id="ver" onclick="calcular()"></abbr>
+        <br>
+        <div id="res">
+        </div>
+    </div>
+    <div class="ancora"><a href="views/pag2.html" rel="next" target="_parent">ir para próxima página</a></div>
+    <script>
+        function calcular(){
+            let velo = document.querySelector('input#vel')
+            let veloci = (vel.value)
+            let resu = document.querySelector('#res')
+            resu.innerHTML = `Sua velocidade é de <strong>${veloci}Km/H</strong>`
+            if(veloci > 60){
+                resu.innerHTML += '<p>e você está a cima da velocidade permitida, <strong>MULTADO!</strong></p>'
+            } else {
+                resu.innerHTML += '<p>e você está dentro da velocidade permitida</p>'
+            }
+                resu.innerHTML += `<p>dirija com segurança!</p>`
+        }
+    </script>
+</body>
+</html>
