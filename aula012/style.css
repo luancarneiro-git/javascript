@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+    body {
+        background-color: #335a4e62;
+    }
+    h1, h2, h3, h4 {
+        color: #001920;
+        background-color:#03916138;
+        padding: 5px;
+        border-radius: 7px;
+        width: 139px;
+        margin-left: 40%;
+    }
+    hr {
+        border-color: #1a1a1a;
+    }
+    main {
+        width: 600px;
+        margin: auto;
+        padding: 10px;            
+    }
+    .title {
+        width: 600px;
+        margin: auto;
+        padding: 10px;            
+    }
+    .title2 {
+    width: 600px;
+    margin: auto;
+    border: #202020;
+    }
+    .conteiner {
+        display: flex;
+        background-color: #001920;
+        width: 500px;
+        height: 650px;
+        gap: 15px;
+    }
+    .display {
+        background-color: azure;
+        width: 100px;
+        height: 100px;
+    }
+    .botoes {
+        background-color: azure;
+        width: 400px;
+        height: 100px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
