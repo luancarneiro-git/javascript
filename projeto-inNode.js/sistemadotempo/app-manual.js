@@ -1,4 +1,4 @@
-let hora = 6
+let hora = 1
 let tempo = "neblinado"
 let MensagemTempo1 = ""
 let MensagemTempo2 = ""
