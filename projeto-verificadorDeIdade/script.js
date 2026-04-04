@@ -42,7 +42,7 @@ function verificou(){
             }
 
         } else if(formBoy.checked){
-            gen = "outro"
+            gen = "não binario"
             img.src = "img/boyceta.webp"
         }
 
