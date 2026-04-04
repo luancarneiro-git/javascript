@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="shortcut icon" href="./img/vasco-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <div class="container">
+            <p>Ano do nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+                <input type="radio" name="radsex" id="boy">
+                <label for="boy"> Outros</label>
+            </p>
+            <p>
+            <input type="button" value="Verificar" onclick="verificou()">
+            </p>
+        <div id="res">
+            <p>Preencha o formulário a cima e veja o resultado</p>
+            <img src="img/undfind.png" alt="foto">
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; luan carneiro</p>
+    </footer>
+</body>
+</html>
