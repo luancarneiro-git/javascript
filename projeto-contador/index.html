@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Modelo</title>
+    <title>Contador</title>
     <link rel="shortcut icon" href="vasco-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
@@ -11,14 +11,18 @@
 <body>
     <div class="container">
         <header>
-            <h1>Título</h1>
+            <h1>Contador</h1>
         </header>
         <main>
             <div class="conteudo">
-                <p>Sobre</p>
+                <p>incio: <input type="number" id="inicio"></p>
+                <p>fim: <input type="number" id="fim"></p>
+                <p>passo: <input type="number" id="passo"></p>
+                <p><input type="button" value="contar" id="contar" onclick="contar()"></p>
             </div>
             <div class="elementos">
-                <p>execução</p>
+                <p>contando:</p>
+                <p id="contagem">iniciando contagem...</p>
             </div>
         </main>
         <footer>

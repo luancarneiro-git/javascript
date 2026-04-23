@@ -43,3 +43,6 @@ footer, header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 239, 214);
 }
+#inicio, #fim, #passo, #contar, .elementos{
+  display: grid;
+}
