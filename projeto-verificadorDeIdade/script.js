@@ -42,8 +42,8 @@ function verificou(){
             }
 
         } else if(formBoy.checked){
-            gen = "não binario"
-            img.src = "img/boyceta.webp"
+            gen = ""
+            img.src = ""
         }
 
         res.innerHTML = `<p>Você é um(a) ${gen} de ${idade} anos</p>`
