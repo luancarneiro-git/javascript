@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+}
+
+/* Container padrão reutilizável */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Seção principal */
+.sobre{
+    max-width: 700px;
+}
+
+.sobre h1,
+.sobre h2,
+.sobre p{
+    margin-bottom: 1rem;
+}
+
+/* Grid das seções */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Cards */
+.skills,
+.projetos{
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.skills ul{
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.projetos a{
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+strong{
+    color: rgb(92, 63, 0);
+}

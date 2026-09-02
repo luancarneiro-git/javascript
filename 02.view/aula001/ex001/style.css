@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+    background-color: blanchedalmond;
+}
+h1, p {
+    display: grid;
+    place-items: center;
+    color: rgb(129, 71, 0);
+}
